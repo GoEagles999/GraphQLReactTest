@@ -57,12 +57,16 @@ const server = new ApolloServer({
       id: ID
       name: String
       email: String
+      created: String
+      modified: String
     }
 
     input InputContact {
       id: ID
       name: String
       email: String
+      created: String
+      modified: String
     }
 
     type Query {
